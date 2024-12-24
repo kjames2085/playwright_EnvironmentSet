@@ -1,17 +1,17 @@
 import { defineConfig, devices } from '@playwright/test';
 import {config} from 'dotenv';
 
-if (process.env.ENV=='stage'){
+if (process.env.ENVIRONMENT=='stage'){
   config({
     path: './environment/.env.stage',
     override: true
   });
-} else if (process.env.ENV=='cert'){
+} else if (process.env.ENVIRONMENT=='cert'){
   config({
     path: './environment/.env.cert',
     override: true
   });
-}else if (process.env.ENV=='prod'){
+}else if (process.env.ENVIRONMENT=='prod'){
   config({
     path: './environment/.env.prod',
     override: true
