@@ -1,0 +1,25 @@
+{
+  "name": "playwright_environmentset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjames2085/playwright_EnvironmentSet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjames2085/playwright_EnvironmentSet/issues"
+  },
+  "homepage": "https://github.com/kjames2085/playwright_EnvironmentSet#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
